@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TddBootCamp", "TddBootCamp\TddBootCamp.csproj", "{813F245C-7579-451C-A62A-0FC5E4602B5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TddBootCampTest", "TddBootCampTest\TddBootCampTest.csproj", "{788342C2-467B-4413-BA1F-361661B24EDA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F373C644-0525-49C6-9EF0-ED040D5E763F}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		TddBootCamp.vsmdi = TddBootCamp.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = TddBootCamp.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{813F245C-7579-451C-A62A-0FC5E4602B5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{813F245C-7579-451C-A62A-0FC5E4602B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{813F245C-7579-451C-A62A-0FC5E4602B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{813F245C-7579-451C-A62A-0FC5E4602B5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{788342C2-467B-4413-BA1F-361661B24EDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{788342C2-467B-4413-BA1F-361661B24EDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{788342C2-467B-4413-BA1F-361661B24EDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{788342C2-467B-4413-BA1F-361661B24EDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
